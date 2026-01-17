@@ -1,0 +1,153 @@
+/*Estilo das páginas*/
+body{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 80px;
+}
+
+/* Construção do menu*/
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.menu table {
+  border-collapse: collapse;
+  background: rgb(0, 0, 0);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(33, 229, 248, 0.3);
+}
+
+.menu th {
+  padding: 20px 30px;
+  text-align: center;
+  border-right: 1px solid #222222;
+}
+
+/* Links do menu*/
+.menu a {
+  color: rgb(187, 0, 255);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: #ffffff;
+  background: #15fd34;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/*Estilos para Titulos h1, h2 e h3*/ 
+.titulo{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+background-color: rgb(187, 0, 255);
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 60px;
+}
+
+.subtitulo{
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 30px;
+}
+
+.conteudo{
+display: flex;
+max-width: 1000px;
+margin: 15px auto;
+justify-content: justify;
+align-items: justify;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 20px;
+}
+
+/*Estilos para Parágrafos*/ 
+.paragrafo_home{
+max-width: 1000px;
+margin: 15px auto;
+line-height: 1.6;
+font-size: 16px;
+text-align: center;
+color: rgb(255, 255, 255);
+
+}
+
+.paragrafo{
+max-width: 1000px;
+margin: 15px auto;
+line-height: 1.6;
+font-size: 16px;
+text-align: justify;
+color: rgb(255, 255, 255); 
+}
+
+.paragrafo_resumo{
+max-width: 1000px;
+margin: 15px auto;
+line-height: 1.6;
+font-size: 16px;
+text-align: justify;
+color: rgb(255, 255, 255);
+}
+
+/*Estilos para Bloco*/ 
+.bloco{
+    background-color: #111111; 
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 25px rgba(187, 0, 255, 0.4); 
+    border: 1px solid rgb(187, 0, 255);
+}
+
+/* Estilo para Lista*/
+.lista {
+    max-width: 900px;
+    margin: 10px auto 25px auto;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.lista li {
+    margin-bottom: 6px;
+}
+
+/* Ícones das Redes*/
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.icone {
+    width: 60px;
+    transition: 0.3s ease;
+}
+
+.icone:hover {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 10px rgb(187, 0, 255));
+}
+
+.rodape {
+    padding: 24px;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
